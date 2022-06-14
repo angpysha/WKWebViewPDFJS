@@ -1,0 +1,11 @@
+framework module PDFJSReader {
+  umbrella header "PDFJSReader.h"
+
+  export *
+  module * { export * }
+}
+
+module PDFJSReader.Swift {
+    header "PDFJSReader-Swift.h"
+    requires objc
+}
